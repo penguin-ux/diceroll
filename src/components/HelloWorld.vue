@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>確率の壁</h1>
+    <h1>確率の壁1</h1>
     <div id="diceContainer"></div>
     <p id="rollCount">サイコロを振った回数: 0</p>
     <button id="rollButton">サイコロを振る</button>
