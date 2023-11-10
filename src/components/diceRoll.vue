@@ -4,6 +4,7 @@
     <div>
       <div v-for="(result, index) in diceResults" :key="index" class="dice">
         {{ result }}
+        <img :src="require(`../assets/img/${fileName}.png`)" />
       </div>
     </div>
     <p>サイコロを振った回数: {{ rollCount }}</p>
@@ -24,7 +25,8 @@ export default {
       rollCount: 0,
       matchingNumbers: false,
       numDice: 2,
-      matchResults: []
+      matchResults: [],
+      fileName: "logo1"
     }
   },
   methods: {
