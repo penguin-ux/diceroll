@@ -26,7 +26,7 @@ export default {
       matchingNumbers: false,
       numDice: 2,
       matchResults: [],
-      fileName: "logo1"
+      fileName: "dice1"
     }
   },
   methods: {
@@ -73,6 +73,10 @@ export default {
   text-align: center;
   line-height: 50px;
   margin-right: 10px;
+}
+
+.dice img{
+  width: 50px;
 }
 
 .clear-text {
