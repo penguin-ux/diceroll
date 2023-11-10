@@ -48,7 +48,7 @@ export default {
     },
     checkMatchingNumbers() {
       const targetNumber = this.diceResults[0]
-      this.matchingNumbers = this.diceResults.every(result => result === targetNumber)
+      this.matchingNumbers = this.diceResults.every(diceResultNumber => diceResultNumber === targetNumber)
       if (this.matchingNumbers) {
         this.numDice++
         this.matchResults.push(this.rollCount)
